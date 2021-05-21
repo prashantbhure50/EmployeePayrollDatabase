@@ -27,3 +27,18 @@ ADD Gender varchar(10);
 UPDATE employeePayroll
 SET Gender = 'M'
 WHERE id = 4;
+
+SELECT SUM(salary) FROM employeepayroll
+WHERE Gender = 'M' GROUP BY Gender;
+
+SELECT AVG(salary) FROM employeepayroll
+WHERE Gender = 'M' GROUP BY Gender;
+
+SELECT MIN(salary) FROM employeepayroll
+WHERE Gender = 'M' GROUP BY Gender;
+
+SELECT MAX(salary) FROM employeepayroll
+WHERE Gender = 'M' GROUP BY Gender;
+
+SELECT COUNT(salary) FROM employeepayroll
+WHERE Gender = 'M' GROUP BY Gender;
