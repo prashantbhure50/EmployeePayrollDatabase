@@ -18,4 +18,7 @@ insert into employeePayroll values
 
 select * from employeePayroll;
 
+select salary from employeePayroll where name ='alok'
+
+
 
