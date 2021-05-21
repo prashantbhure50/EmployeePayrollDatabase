@@ -20,5 +20,10 @@ select * from employeePayroll;
 
 select salary from employeePayroll where name ='alok'
 
+ALTER TABLE employeePayroll
+ADD Gender varchar(10);
 
 
+UPDATE employeePayroll
+SET Gender = 'M'
+WHERE id = 4;
