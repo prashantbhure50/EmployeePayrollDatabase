@@ -16,6 +16,6 @@ insert into employeePayroll values
 ('Ashish','10000','2021-9-09'),
 ('Vinayak','10000','2018-8-10')
 
-
+select * from employeePayroll;
 
 
